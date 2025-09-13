@@ -8,7 +8,7 @@ Our team designed and implemented a complete pipelined CPU that executes instruc
 
 ## ⚠️ Important Implementation Notes
 
-**The datapath drawing is not fully accurate - the Verilog code implementation is correct.** Key implementation details:
+**The datapath drawing is not fully accurate but the Verilog code implementation is correct.**
 
 1. **Branch Control Handling**: The branch decision logic requires proper handling of ALU flags from the immediately preceding instruction. Branch instructions should use ALU flags from the previous instruction, which can be implemented by sending ALU flags backwards through the pipeline stages.
 
